@@ -1,0 +1,15 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+
+  "files.associations": {
+    "*.html": "html"
+  },
+
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+
+  "tailwindCSS.includeLanguages": {
+    "html": "html"
+  }
+}

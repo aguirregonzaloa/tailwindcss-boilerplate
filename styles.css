@@ -1,0 +1,12 @@
+/* 
+To include external CSS files in a Tailwind CSS project, you need to use PostCSS with the postcss-import plugin.  This allows you to use @import statements to bring in external CSS files, including Tailwind's base, components, and utilities
+*/
+
+@theme {
+  --color-clifford: #da373d;
+}
+
+.my-class {
+  color: var(--color-clifford);
+  @apply bg-gray-100;
+}
