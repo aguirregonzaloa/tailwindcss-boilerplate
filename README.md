@@ -45,3 +45,22 @@ export default {
 ```
 
 This will enable HTML IntelliSense and Tailwind CSS support in your project.
+
+## Adding Prettier plugin
+
+Install Prettier plugin for VS Code Extensions:
+
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Prettier formatter for VS Code
+
+- Install npm package on the command line:
+  `npm install --save-dev prettier-plugin-tailwindcss`
+
+- Create a Prettier configuration file (e.g., .prettierrc or prettier.config.js) in the root of your project. Add the following configuration:
+
+```json
+{
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tabWidth": 2,
+  "useTabs": false
+}
+```
