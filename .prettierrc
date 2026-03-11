@@ -1,5 +1,13 @@
 {
   "plugins": ["prettier-plugin-tailwindcss"],
   "tabWidth": 2,
-  "useTabs": false
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": ["*.html"],
+      "options": {
+        "singleAttributePerLine": true
+      }
+    }
+  ]
 }
